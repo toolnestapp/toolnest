@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 transition-colors;
+}
+
+:focus-visible {
+  outline: 2px solid #9333ea;
+  outline-offset: 2px;
+}
+
+.card {
+  @apply bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-medium text-white transition hover:bg-brand-700 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-gray-300 dark:border-gray-700 px-5 py-3 font-medium text-gray-800 dark:text-gray-100 transition hover:bg-gray-100 dark:hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.input-field {
+  @apply w-full rounded-xl border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-4 py-3 text-base outline-none focus:border-brand-500;
+}
+
+/* ToolNest Purple Theme */
+
+.bg-brand-600 {
+  background-color: #9333ea !important;
+}
+
+.bg-brand-700 {
+  background-color: #7e22ce !important;
+}
+
+.text-brand-600 {
+  color: #9333ea !important;
+}
+
+.text-brand-700 {
+  color: #7e22ce !important;
+}
+
+.text-brand-500 {
+  color: #a855f7 !important;
+}
+
+.border-brand-300 {
+  border-color: #d8b4fe !important;
+}
+
+.border-brand-400 {
+  border-color: #c084fc !important;
+}
+
+.border-brand-500 {
+  border-color: #a855f7 !important;
+}
+
+.focus\:border-brand-500:focus {
+  border-color: #a855f7 !important;
+}
+
+.hover\:text-brand-600:hover {
+  color: #9333ea !important;
+}
+
+.hover\:text-brand-700:hover {
+  color: #7e22ce !important;
+}
+
+.hover\:bg-brand-700:hover {
+  background-color: #7e22ce !important;
+}
+/* Stronger purple header glow */
+header {
+  box-shadow:
+    0 10px 35px rgba(147, 51, 234, 0.38),
+    0 0 60px rgba(168, 85, 247, 0.25),
+    0 0 100px rgba(147, 51, 234, 0.18);
+}

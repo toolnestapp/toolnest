@@ -1,0 +1,12 @@
+{
+  "name": "ToolNest",
+  "short_name": "ToolNest",
+  "description": "Simple tools for everyday tasks.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a5ff0",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
