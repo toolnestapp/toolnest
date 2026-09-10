@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-https://toolnest.thumbscoreai.workers.dev/sitemap.xml
+Sitemap: https://toolnest.thumbscoreai.workers.dev/sitemap.xml
